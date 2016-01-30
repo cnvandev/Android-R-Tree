@@ -141,7 +141,7 @@ public class RTree {
 			else
 				list = n.children;
 
-			float maxD = Float.MIN_VALUE;
+			float maxD = -Float.MAX_VALUE;
 			RectF box = new RectF();
 			for (int i = 0; i < list.size(); i++) {
 				for (int j=0; j<list.size(); j++) {

@@ -1,5 +1,3 @@
-package com.imlikeaninja.android.utilities.rtree;
-
 import android.graphics.RectF;
 
 /**
